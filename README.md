@@ -30,7 +30,8 @@ The analysis will involve several stages using machine learning methodologies:
 4. **Model Training and Validation**: Using a portion of the data to train the models and a separate portion to validate their performance. Techniques like cross-validation may be used to ensure that the model generalizes well to unseen data.
 5. **Performance Evaluation**: Evaluating the model using appropriate metrics, such as precision, recall, F1-score, and the ROC-AUC curve. Since the cost of false negatives (missed frauds) is usually higher than false positives, you might prioritize recall or use a cost-sensitive learning algorithm.
 
-Summary
+**Summary**
+
 We began by cleaning a dataset involving financial transactions, addressing missing values and correcting data types. Post-cleaning, we prepared the data for machine learning by selecting features, encoding categorical variables, scaling numerical data, and splitting it into training and testing sets.
 
 We then implemented and evaluated three machine learning models: Logistic Regression, K-Nearest Neighbors (KNN), and Decision Trees, focusing on detecting fraud (binary classification).
